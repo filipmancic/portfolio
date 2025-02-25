@@ -24,14 +24,14 @@
 <nav class="navbar navbar-dark navbar-expand-md bg-black fixed-top ">
     <a class="navbar-brand" href="#"></a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
-        <span class=""><i class="fas fa-stream" style="font-size:24px;color:white;"></i></span>
+        <span class=""><i class="fas fa-stream"></i></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
         <ul id="nav" class="nav navbar-nav navbar-right">
-            <li class="nav-item"><a class="nav-dugme underline" href="/#">Home</a></li>
-            <li class="nav-item"><a class="nav-dugme underline" href="/#next">About</a></li>
-            <li class="nav-item"><a class="nav-dugme underline" href="/#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-dugme underline" href="/#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-dugme underline" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-dugme underline" href="#next">About</a></li>
+            <li class="nav-item"><a class="nav-dugme underline" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-dugme underline" href="#contact">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -57,112 +57,101 @@
 </div>
 
 <div id="next" class="box2 row">
-
     <div class="col-12">
         <h1 id="about" data-aos="fade-up" class="j1">ABOUT ME</h1>
     </div>
-
-    <div class="row text-center" style="align-items: center">
-        <div  class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-
-                <div class="card1 width-def mtop10">
-                    <h2 class="j1">BIO</h2>
-                        <p class="desc">
-                           I'm Filip - Enthusiastic Front-End Developer from Serbia. Started my path to Bachelors Degree at Electrical Engineering School 
-                           "Nikola Tesla" in Belgrade and became an IT specialist. Even thought I was mostly learning about classical programming there,
-                           I quickly realised that Web Design & Front-End Development is the way I express myself the best. I worked on various projects
-                           for local and international clients and made amazing expiriences. I find myself very ambitious and tempted to expand my versatility with
-                           diverse fields of work. My goal is to keep achieving mutual satisfaction with clients and to continuously expand my connections.
-                           I hope that this is a great start of our upcoming cooperation!
-                        </p>
-                </div>
-         </div>
-        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="400">
-             <div class="card1 width-def mtop10">
-                 <h2 class="j1">SKILLS</h2>
-                <p class="desc">HTML, CSS, SASS<br>JavaScript, jQuery, Bootstrap 
-                <br>PHP, SQL<br>Wordpress & Custom theme development<br>Adobe PS, LR & AE, Sony Vegas
-                 </p>
-             </div>
+    <div class="row holder" data-aos="fade-up" data-aos-delay="400">
+       <div class="col-md-8 bio">
+        <h3>Biography</h3>
+        <p>Hi! My name is Filip. I'm a highly motivated student at the Faculty of Mathematics in Belgrade, currently pursuing a Bachelor's degree in Informatics. With a strong background in IT, programming, mathematics, and problem-solving, I have developed a passion for tackling complex challenges. I graduated from the Electrical Engineering High School Nikola Tesla, Belgrade, where I specialized in informatic technologies. I thrive in collaborative team environments and have experience mentoring peers in both programming and math, offering group and one-on-one guidance. Always eager to learn and grow, I am excited to contribute to innovative projects, gain valuable experience, and drive success in any organization.</p>
+       </div>
+       <div class="col-md-4 d-flex justify-content-center">
+        <img src="img/filip.png" alt="Filip Mancic" class="bio-img">
+       </div>
+    </div>
+    <div class="row holder w-100" data-aos="fade-up" data-aos-delay="400">
+        <div class="col-12 skills">
+            <h3>Skills</h3>
+            <p>Web Development:<br/>
+                HTML, CSS, Bootstrap, JavaScript, TypeScript</p>
+                <p>Frontend Frameworks & Libraries:<br/>
+                    React, React Native</p>
+                <p>Full-Stack Development:<br/>
+                    MongoDB, Express, React, Node.js, WordPress, SQL</p>
+               <p>Programming Languages:<br/>
+                C, C++</p> 
         </div>
     </div>
     <div class="row" id="projects">
-            <div class="col-12 m-auto" data-aos="zoom-in" data-aos-delay="400">
-                <div class="card1 width-def mtop10">
-                    <h2 class="j1">PROJECTS</h2>
+            <div class="col-12 m-auto" data-aos="fade-up" data-aos-delay="400">
+                <div class="holder">
+                    <h3 class="projects-header text-center">Projects</h3>
+                    <div class="row highlights">
+                        <div class="col-md-4 justify-content-center">
+                            <a href="https://github.com/filipmancic/GymTracker" target='_blank'><img src="img/qr.PNG" alt="" class="proj"></a>
+                        </div>
+                        <div class="col-md-8">
+                            <h3>GymTracker</h3>
+                            <a href="https://github.com/filipmancic/GymTracker" target='_blank' class="info">https://github.com/filipmancic/GymTracker</a>
+                            <p>
+                                Full-stack mobile gym application using React Native, Node.js/Express, and MongoDB. The app features secure user authentication with JWT and persistent login, a dynamic workout dashboard showcasing an exercise carousel, detailed workout plans, and an interactive stopwatch with start, pause, and reset functions.
+                                <br>
+                                Additionally, the app includes a QR scanner module that lets users scan codes during their workouts to automatically decrement their remaining training sessions and log each session with date and time. This project highlights my skills in cross-platform mobile development, state management with Context API, and backend integration to deliver a seamless and user-friendly fitness tracking experience.</p>
+                        </div>
+                        <div class="col-12 row mt">
+                            <div class="col-md-4 justify-content-center">
+                                <a href="https://cupavitrener.rs" target='_blank'><img src="img/cupavi.PNG" alt="" class="proj"></a>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Online coaching</h3>
+                                <a href="https://cupavitrener.rs" target='_blank' class="info">https://cupavitrener.rs</a>
+                                <a href="https://github.com/filipmancic/coaching" target='_blank' class="info">https://github.com/filipmancic/coaching</a>
+                                <p>(Still under development) Full-stack web application designed for fitness trainers and clients. Built with React, Node.js/Express, and MySQL, it offers secure JWT authentication, an admin dashboard for managing training and meal plans, and a client dashboard for accessing personalized workouts. The platform includes a blog management system with image uploads, smooth client-side routing, and a cPanel-based deployment. This project highlights expertise in authentication, API design, and scalable fitness solutions.</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
+                        <div class="col-12 text-center basic"><h3 class="highlights">Basic websites I made along the way</h3></div>
                         <div class="col-sm-6 text-center">
-                            <a href="/vietnam" class="block" target="_blank"><h2 class="j2 underline">Vietnam</h2></a>
-                            <a href="/vietnam" target="_blank"><img class="img-proj" alt="" src="img/p1.png"></a>
+                            <a href="https://filipmancic.github.io/travel" class="block" target="_blank"><h2 class="j2 underline">Vietnam</h2></a>
+                            <a href="https://filipmancic.github.io/travel" target="_blank"><img class="img-proj" alt="" src="img/p1.png"></a>
                         </div>
                         <div class="col-sm-6 text-center">
-                            <a href="/skitravel" class="block" target="_blank"><h2 class="j2 underline">Ski Travel</h2></a>
-                            <a href="/skitravel" target="_blank"><img class="img-proj" alt="" src="img/p3.png"></a>
+                            <a href="https://filipmancic.github.io/ski" class="block" target="_blank"><h2 class="j2 underline">Ski Travel</h2></a>
+                            <a href="https://filipmancic.github.io/ski" target="_blank"><img class="img-proj" alt="" src="img/p3.png"></a>
                         </div>
                         <div class="col-sm-6 text-center">
-                            <a href="/automotive" class="block" target="_blank"><h2 class="j2 underline">Automotive</h2></a>
-                            <a href="/automotive" target="_blank"><img class="img-proj" alt="" src="img/p2.png"></a>
+                            <a href="https://filipmancic.github.io/bmw" class="block" target="_blank"><h2 class="j2 underline">Automotive</h2></a>
+                            <a href="https://filipmancic.github.io/bmw" target="_blank"><img class="img-proj" alt="" src="img/p2.png"></a>
                         </div>
                         <div class="col-sm-6 text-center">
-                            <a href="/newspaper" class="block" target="_blank"><h2 class="j2 underline">Newspaper</h2></a>
-                            <a href="/newspaper" target="_blank"><img class="img-proj" alt="" src="img/p4.png"></a>
+                            <a href="https://filipmancic.github.io/newspaper" class="block" target="_blank"><h2 class="j2 underline">Newspaper</h2></a>
+                            <a href="https://filipmancic.github.io/newspaper" target="_blank"><img class="img-proj" alt="" src="img/p4.png"></a>
                         </div>
-                       <!-- <div class="col-12 text-center">
-                            <h2 class="j2">Car Mechanics</h2>
-                            <hr style="margin:10px auto;width:30%;opacity:0.6;border-top: 1px solid white;">
-                            <img class="img-proj" alt="" src="img/coming.jpg">
-                        </div> -->
                     </div>
         </div>
      </div>
     </div>
     </div>
 
-    <div id="contact" class="row" style="margin-bottom: 5vh !important;">
-            <div class="col-md-2"></div>
-            <div class="col-md-8" data-aos="zoom-out">
-                <div class="card1 width-def text-center">
-                    <h1 class="j1">CONTACT ME</h1>
-                    <h2 class="contact2">Let's get in touch.</h2>
-                    <hr style="margin:15px auto;width:35%;opacity:0.6;border-top: 1px solid white;">
-                    <!--php forma, telefon, mejl itd-->
-                    <form action="mail_handler.php" method="post" name="form" class="row">
+    <div id="contact" class="row holder" data-aos="fade-up">
+        <div class="col-12">
+            <h3>Contact me</h3>
+            <p>Let's get in touch.</p>
+            <div class="row">
+                <div class="col-12">
+                    <h4>Write to me</h4>
+                    <a class="direct underline" href="mailto:mancicff@gmail.com">mancicff@gmail.com</a><br>
+                    <a class="direct underline" href="tel:+381612717175">+381 61 2717175</a>
+                </div>
+                <div class="col-12">
+                    <h4>Social media</h4>
+                    <a class="direct underline" href="https://www.linkedin.com/" target="_blank">LinkedIn (Soon to be updated)</a><br>
+                    <a class="direct underline" href="https://www.instagram.com/mancicfilipp" target="_blank">Instagram</a><br>
 
-                        <div class="col-md-6">
-                            <label for="name">NAME</label><br>
-                            <input type="text" name="name" class="inp" placeholder="Your name here..." required=""><br>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="email">YOUR EMAIL</label><br>
-                            <input type="email" name="email" class="inp" placeholder="Your email here..." required=""><br>
-                        </div>
-                        
-
-                        <div class="col-12">
-                            <label for="message">Leave a message here!</label><br>
-                            <input type="text" name="msg" class="msg-box" placeholder="Your message here..." required=""><br>
-                            <input type="submit" name="submit" value="  Send  " class="sub-btn">
-                        </div>
-
-                    </form>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h1 class="j2">SOCIAL MEDIA</h1>
-                            <!--<hr style="margin:0 auto;width:35%;opacity:0.6;border-top: 1px solid white;">--><br>
-                            <a class="direct underline" href="https://www.linkedin.com/" target="_blank">LinkedIn</a><br>
-                            <a class="direct underline" href="https://www.instagram.com/mancicfilipp" target="_blank">Instagram</a><br>
-                            <!--<a class="direct underline" href="https://www.facebook.com/mancicf/" target="_blank">Facebook</a> -->
-                        </div>
-                        <div class="col-lg-6">
-                            <h1 class="j2">DIRECT MESSAGE</h1>
-                           <!-- <hr style="margin:0 auto;width:35%;opacity:0.6;border-top: 1px solid white;">--><br>
-                            <a class="direct underline" href="mailto:mancicff@gmail.com">contact@filipmancic.com</a><br>
-                            <a class="direct underline" href="tel:+381612717175">+381 61 2717175</a>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="col-md-2"></div>
+        </div>      
         </div>
 
 <script src="aos.js"></script>

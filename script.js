@@ -1,7 +1,7 @@
 let mouseCursor=document.querySelector(".cursor");
 window.addEventListener("mousemove", cursor);
 window.addEventListener("wheel", cursor);
-var list = document.querySelectorAll("h1, h2, p, span, li, a, label, input, img");
+var list = document.querySelectorAll("h1, h2, h3, p, span, li, a, label, input, img");
 
 function cursor(e){
     mouseCursor.style.top = e.pageY + 'px';
