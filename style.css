@@ -205,7 +205,18 @@ h4{
 .scroller i:nth-child(3){
     animation-delay: 0.8s;
 }
-
+.cv-btn{
+    padding: 5px 20px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: all 0.2s ease;
+    width: fit-content;
+    color: white;
+}
+.cv-btn:hover{
+    background: rgb(68, 68, 68);
+}
 .box1
 {
     min-height: 100vh;
